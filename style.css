@@ -1,0 +1,199 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(0, 183, 255)!important;
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+    margin-left: 40px !important; 
+    margin-bottom: 10px !important;
+}
+.nav-link{
+    color: black !important;
+    font-size: 18px !important;
+    padding:0 0 0 5px !important;
+    display: unset !important; 
+    font-family: monospace;
+    background-color: rgb(0, 183, 255)!important;
+    border: none;
+}
+.navbar-brand img{
+    width: 130px ;
+}
+.fa-bars{
+    color: black;
+    font-size: 40px !important;
+    font-family: monospace;
+
+}
+.navbar-toggler{
+    border: 0;
+    outline: none;
+    padding:initial;
+}
+.active-home{
+    border-bottom: 2px solid black;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+.banner{
+    margin-top: 8%;
+    color: black;
+}
+.banner h1{
+    margin:80px 0 50px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 600;
+}
+.banner img{
+    height: 500px;
+width: 590px;
+}
+.banner a{
+    padding:12px;
+    width: 150px;
+    display: block;
+    text-decoration:none;
+    color: black;
+    border:2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top:30px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+}
+.banner a:hover{
+    color: #fff;
+}
+.express-btn{
+    background: black !important;
+    color: #fff!important;
+    margin-right: 5px;
+}
+.service{
+    margin: 75px 0;
+
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: monospace;
+
+}
+.sub-title{
+    text-align: center;
+   font-size: 15px;
+    margin-bottom: 70px;
+    font-family: monospace;
+
+}
+.col-md-6 p{
+font-size: 25px;
+font-family: monospace;
+
+}
+.col-md-6 h1{
+font-family: monospace;
+
+}
+.service-box{
+    padding:  0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: .4s;
+
+}
+.service-box img{
+    width: 80px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.service-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+.service-box p{
+    font-size: 15px;
+    color:#000;
+    font-family: monospace;
+
+}
+.fa-arrow-right{
+    font-size:22px !important;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    font-family: monospace;
+
+}
+.service-box:hover, .active-service{
+background:rgb(0, 183, 255);
+border-radius: 5px;
+color: #fff;
+box-shadow:  0 15px 15px 2px rgba(213,213,213,0.5);
+}
+.service-box:hover p{
+    color: white;
+
+}
+.feature{
+    margin:200px 0;
+    background-color: rgb(0, 183, 255);
+    height: 300px;
+}
+/* .feature img{
+    width: 77px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10px;
+} */
+.feature h2{
+    font-family: monospace;
+    font-weight: bold;
+}
+.feature button{
+    font-family: monospace;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.feature button:hover{
+    background-color: grey;
+}
+
+.end{
+    background-color: rgb(0, 183, 255);
+    height: 200px;
+    align-content: center;
+}
+.info{
+    padding: 10px 2px;
+    margin: 4px 2px;
+    text-align: center;
+    display: block;
+    width:auto;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family:monospace;
+}
+
